@@ -1,8 +1,43 @@
+body {
+  background-color: antiquewhite;
+}
+
+main {
+  background-color: peachpuff;
+  padding: 18px;
+  height: 75%;
+  display: flex;
+  margin: 16px auto;
+ 
+}
+
 div {
-    color: white;
-    background-color: black;
-  }
+  width: 80%;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  background-color: green;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0%;
   
-  p {
-    color: red;
-  }
+}
+
+button {
+  background-color: orange;
+  font-size: 18px;
+}
+
+.container {
+  width: 70%;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+  padding: 1%;
+}
